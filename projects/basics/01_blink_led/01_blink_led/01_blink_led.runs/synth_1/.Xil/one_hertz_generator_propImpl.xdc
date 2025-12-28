@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:/home/nogo/Documents/Projects/Digital_Design/projects/01_blink_led/01_blink_led/01_blink_led.srcs/constrs_1/new/const_one_hertz_generator.xdc rfile:../../../01_blink_led.srcs/constrs_1/new/const_one_hertz_generator.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W5 [get_ports clk_100MHz]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V14 [get_ports {clk_1Hz}]
