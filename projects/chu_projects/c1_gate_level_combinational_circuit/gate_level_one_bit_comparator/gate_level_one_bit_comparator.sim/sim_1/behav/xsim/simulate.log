@@ -1,11 +1,23 @@
 Time resolution is 1 ps
-Time	i0	i1	eq
---------------------
-0	0	0	1
-10000	0	1	0
-20000	1	0	0
-30000	1	1	1
+Time	a[1:0]	b[1:0]	aeqb
+---------------------------
+0	00	00	1
+10000	00	01	0
+20000	00	10	0
+30000	00	11	0
+40000	01	00	0
+50000	01	01	1
+60000	01	10	0
+70000	01	11	0
+80000	10	00	0
+90000	10	01	0
+100000	10	10	1
+110000	10	11	0
+120000	11	00	0
+130000	11	01	0
+140000	11	10	0
+150000	11	11	1
 
-Testbench completed.
-$finish called at time : 50 ns : File "/home/nogo/Documents/Projects/Digital_Design/projects/chu_projects/c1_gate_level_combinational_circuit/gate_level_one_bit_comparator/gate_level_one_bit_comparator.srcs/sim_1/new/tb_one_bit_comparator.v" Line 26
-INFO: xsimkernel Simulation Memory Usage: 280840 KB (Peak: 338372 KB), Simulation CPU Usage: 2170 ms
+Simulation complete
+$finish called at time : 170 ns : File "/home/nogo/Documents/Projects/Digital_Design/projects/chu_projects/c1_gate_level_combinational_circuit/gate_level_one_bit_comparator/gate_level_one_bit_comparator.srcs/sim_1/new/tb_two_bit_comparator.v" Line 36
+INFO: xsimkernel Simulation Memory Usage: 280844 KB (Peak: 338376 KB), Simulation CPU Usage: 2400 ms
